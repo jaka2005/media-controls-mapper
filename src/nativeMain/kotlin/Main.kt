@@ -94,6 +94,7 @@ fun disposeHook() {
 }
 
 fun main() {
+    ShowWindow(GetConsoleWindow(), SW_HIDE)
     initHook()
 
     memScoped {
